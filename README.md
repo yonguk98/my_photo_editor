@@ -1,4 +1,4 @@
-# my_photo_editor
+# my_tiny_photo_editor
 
 simple openCV-python photo editor
 
