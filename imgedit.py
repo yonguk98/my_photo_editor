@@ -1,8 +1,9 @@
 import cv2 as cv
 import numpy as np
+import os
 
 # Read the given image
-img = cv.imread('cv_tutorial/data/mandril_color.tif')
+img = cv.imread(os.getcwd() + '/data/mandril_color.tif')
 
 if img is not None:
     rotateList = [cv.ROTATE_90_CLOCKWISE,
